@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>презентация</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/moon.css" id="theme">
+		
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>основные тэги html и режимы отображения display</h3>
+					<p>
+						<small>Первак Маша</small>
+					</p>
+				</section>
+
+				<section>
+					<section>
+						<h2>Основные тэги</h2>
+					</section>
+					<section>
+						<p><font color="grey">&lthtml&gt &lt/html&gt </font></p>
+						<a> Указывает программе просмотра страниц, что это HTML документ. <a>
+					</section>
+					<section>
+						<p><font color="grey">&lthead&gt &lt/head&gt </font></p>
+						<a> Определяет место, где помещается различная информация не отображаемая в теле документа.  <a>
+					</section>
+					<section>
+						<p><font color="grey">&ltbody&gt &lt/body&gt </font></p>
+						<a>	Определяет видимую часть документа <a>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>режимы отображения display</h2>
+					</section>
+					<section>
+						<p><font color="grey">display: inline;</font></p>
+						<a>  Элемент показывается как блочный. <a>
+					</section>
+					<section>
+						<p><font color="grey">display: block; </font></p>
+						<a> Элемент отображается как встроенный.  <a>
+					</section>
+					<section>
+						<p><font color="grey">display: inline-block; </font></p>
+						<a>	Это значение генерирует блочный элемент, который обтекается другими элементами веб-страницы подобно встроенному элементу <a>
+					</section>
+				</section>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
